@@ -21,7 +21,7 @@ client.on('ready', () => {
 const escucharMensaje = () => {
     client.on('message', message => {
         console.log(message.from);
-        if ('573202721552@c.us' === message.from) {
+        if ('573013358475@c.us' === message.from) {
             console.log(`Número correcto, mensaje: ${message.body}`);   
             clearTimeout(temporizador);   
                 temporizador = setTimeout(() => {
